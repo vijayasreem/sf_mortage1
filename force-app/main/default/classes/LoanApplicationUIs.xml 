@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+  <apiVersion>44.0</apiVersion>
+  <status>Active</status>
+  <userStory>Create Loan App UIs. As a senior developer, I want to create a multi-channel application interface, secure data storage mechanism, validation mechanism, credit check functionality, used vehicle assessment feature, and loan offer generation and acceptance logic, so that customers can apply for loans in-person, online, or through a mobile app.</userStory>
+  <acceptanceCriteria>The system must provide customers with the ability to apply for loans in-person, online, or through a mobile app. The system must be able to store customer information, such as identification, income, credit history, and employment details. The customer must provide valid identification, proof of income, credit history, and employment details to be eligible for a loan. The system must be able to perform a credit check to determine the loan amount and interest rate range. The system must be able to assess the value of the vehicle if it is a used car. The loan offer must be accepted by the applicant before the bank can disburse the loan.</acceptanceCriteria>
+</ApexClass>
