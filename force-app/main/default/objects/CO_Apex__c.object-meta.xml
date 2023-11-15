@@ -1,0 +1,66 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <name>PolicyDetails__c</name>
+    <label>Policy Details</label>
+    <pluralLabel>Policy Details</pluralLabel>
+    <nameField>
+        <label>Policy Number</label>
+        <type>Text</type>
+    </nameField>
+    <fields>
+        <fullName>Policy_Number__c</fullName>
+        <defaultValueFormula>''</defaultValueFormula>
+        <externalId>false</externalId>
+        <label>Policy Number</label>
+        <length>80</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Code__c</fullName>
+        <defaultValueFormula>''</defaultValueFormula>
+        <externalId>false</externalId>
+        <label>Customer Code</label>
+        <length>80</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Name__c</fullName>
+        <defaultValueFormula>''</defaultValueFormula>
+        <externalId>false</externalId>
+        <label>Customer Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <defaultValueFormula>''</defaultValueFormula>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Variant__c</fullName>
+        <defaultValueFormula>''</defaultValueFormula>
+        <externalId>false</externalId>
+        <label>Variant</label>
+        <length>255</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

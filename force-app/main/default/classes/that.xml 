@@ -1,0 +1,17 @@
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <status>Active</status>
+    <metadataType>ApexClass</metadataType>
+    <content>
+        <name>PolicyDetailsRetrieval</name>
+        <body>
+            public class PolicyDetailsRetrieval {
+                public void retrievePolicyDetails(String policyNumber) {
+                    // Query the policy database to fetch the corresponding policy details
+                    // Display the retrieved policy details to the user in the user interface
+                    // Implement error handling for exceptions and provide informative error messages
+                }
+            }
+        </body>
+    </content>
+</ApexClass>
